@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgba(128, 128, 128, 0.644); 
+    padding: 0.5rem;
+    margin: 0;
+    border-spacing: 0px;
+    text-align: left;
+
+}
+
+td.css-change-button, td.css-delete-button {
+    vertical-align: center;
+}
+
+td div {
+    
+    border: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
+
+.change-button {
+    background-color: rgba(255, 255, 0, 0.774);
+}
+
+th[data-book-id] {
+    word-wrap: break-word;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.457);
+}
+
+tr:first-child {
+    background-color: white ;
+}
